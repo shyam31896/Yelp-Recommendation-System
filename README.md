@@ -1,6 +1,8 @@
 # Yelp Recommendation System
 This repository consists of the scripts required to train and predict the ratings that a user might provide for any new business on Yelp. The training script `train.py` provides the user with the option of training the Yelp data on three different model options (User based Collaborative Filtering, Alternating Least Squares method using the Scikit-surprise library, and XGBoost) and the performance of these models are evaluated using the prediction script `predict.py` The Usage examples are provided below for reference.
 
+Apache Spark is used for the Big data processing. The code runs in the assumtion that Apache Spark is pre-installed.
+
 ## Usage:
 
 Step 1:
